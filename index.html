@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Weronika & Krzysztof – Zaproszenie ślubne</title>
+<meta name="description" content="Zaproszenie na ślub Weroniki i Krzysztofa – 5 września 2026">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --olive:#5f7a5b;
+  --olive-dark:#3f5a3c;
+  --beige:#f4f1ec;
+  --cream:#faf9f6;
+  --text:#2e2e2e;
+}
+@media (max-width:768px){
+  body{
+    background-position: top center;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
+@media (max-width:768px){
+
+  body{
+    background-size: contain;
+    background-position: top center;
+  }
+
+}
+.fade-in{
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show{
+  opacity: 1;
+  transform: translateY(0);
+}
+.kwiaty-icon{
+  display: block;
+  margin: 25px auto 0 auto;
+  width: 200px;
+  height: auto;
+}
+.telefon-bg{
+
+  width: 65px;      /* było 90px */
+  height: 65px;     /* było 90px */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+}
+
+.telefon-bg img{
+  width: 28px;      /* było 40px */
+  height: auto;
+}
+.kontakt-icon{
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 60px;
+  height: auto;
+}
+.info-icon{
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 70px;
+  height: auto;
+}
+.info-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+.info-item{
+  color: #000000;
+}
+
+.info-item h3{
+  color: #000000;
+}
+
+.info-item p{
+  color: #000000;
+}
+
+.info-item{
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.info-item h3{
+  margin-bottom: 15px;
+}
+@media (max-width: 768px){
+  .info-grid{
+    grid-template-columns: 1fr;
+  }
+}
+.sekcja-header{
+  text-align: center;
+}
+header{
+  background: transparent;
+}
+
+.sekcja-icon{
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 90px;
+  height: auto;
+}
+section{
+  position:relative;
+  z-index:1;
+}
+.wesele-icon{
+  width: 90px;
+  height: 90px;
+}
+.wesele-icon{
+  width: 90px !important;
+  height: auto !important;
+}
+
+
+.wesele-icon{
+  width: 100px;
+  height: 40px;
+  object-fit: contain;
+}
+.sekcja-icon{
+  width: 90px !important;
+  height: auto !important;
+}
+
+.wesele-text{
+  text-align: center;
+}
+
+.wesele-icon{
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+section:nth-of-type(even){
+  background: var(--olive);
+  color: white;
+  margin: 3rem 1.5rem;
+  border-radius: 40px;
+  padding: 4rem 2rem;
+}
+
+section:nth-of-type(even) h2{
+  color:white;
+}
+
+section:nth-of-type(even) .card{
+  background: rgba(255,255,255,0.95);
+  color: var(--text);
+}
+.hero{
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+section{
+  position:relative;
+  z-index:1;
+}
+.hero{
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+
+  margin: 2rem;
+  border-radius: 40px;
+  overflow: hidden;
+}
+section:not(.hero) h2::after{
+  animation: fadeInOlive 1s ease forwards;
+  opacity:0;
+}
+
+@keyframes fadeInOlive{
+  to{opacity:0.25;}
+}
+
+section:nth-of-type(even) h2{
+  color:white;
+}
+
+section:nth-of-type(even) .card{
+  background: rgba(255,255,255,0.95);
+  color: var(--text);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Lato',sans-serif;
+  color:var(--text);
+ background: linear-gradient(to bottom, #94ab91, #bec8bc);
+  line-height:1.7;
+}
+  
+.form-wrapper iframe{
+  border-radius:20px;
+  filter: grayscale(100%) contrast(90%) brightness(105%);
+}
+.form-wrapper{
+  background:#fff;
+  border-radius:24px;
+  padding:1.5rem;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+section:not(.hero) h2::after{
+  animation: fadeInOlive 1s ease forwards;
+  opacity:0;
+}
+
+@keyframes fadeInOlive{
+  to{opacity:0.25;}
+}
+section{
+  padding:4rem 1.5rem;
+  position:relative;
+}
+
+section{
+  position:relative;
+}
+
+section{
+  position:relative;
+}
+
+
+.container{
+  max-width:900px;
+  margin:auto;
+}
+
+h1,h2{
+  font-family:'Playfair Display',serif;
+  text-align:center;
+  color:var(--olive-dark);
+}
+
+.hero{
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+ 
+}
+
+.hero-card{
+  background:rgba(255, 255, 255, 0.87);
+  padding:3.5rem 4rem;
+  border-radius:22px;
+  text-align:center;
+  box-shadow:0 20px 60px rgba(0,0,0,.12);
+}
+
+.hero-sub{
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:.8rem;
+  color:#888;
+}
+
+.date-big{
+  font-size:1.8rem;
+  margin-top:.8rem;
+  color:var(--olive);
+}
+
+.time-big{
+  font-size:1.3rem;
+  margin-top:.3rem;
+  color:#666;
+}
+
+.card{
+  background:white;
+  border-radius:18px;
+  padding:2rem;
+  margin-top:2rem;
+ box-shadow: none;
+}
+
+.center{text-align:center}
+
+iframe{
+  width:100%;
+  height:340px;
+  border:0;
+  border-radius:16px;
+  margin-top:1.2rem;
+}
+
+.form-wrapper{
+  background:#fff;
+  border-radius:24px;
+  padding:1.5rem;
+}
+
+.form-wrapper iframe{
+  width:100%;
+  height:800px; /* desktop */
+  border-radius:20px;
+}
+
+footer{
+  text-align:center;
+  padding:2rem;
+  font-size:.9rem;
+  color:#ffffff;
+}
+
+@media(max-width:768px){
+  .hero-card{padding:2.5rem 2rem}
+  h1{font-size:2rem}
+}
+
+@media(max-width:480px){
+  h1{font-size:1.7rem}
+  .date-big{font-size:1.4rem}
+}
+@media (max-width:768px){
+  .form-wrapper iframe{
+    height:1200px; /* zwiększamy żeby cały formularz był widoczny */
+  }
+}
+@media (max-width:768px){
+  .form-wrapper{
+    padding:0.5rem; /* było 1.5rem */
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="hero-card">
+    <h1>Weronika<br>&<br>Krzysztof</h1>
+    <p class="date-big">5 września 2026</p>
+    <p class="time-big">godzina 14:00</p>
+  </div>
+</section>
+
+<section>
+<div class="container">
+  <img src="ceremonia.png" class="sekcja-icon">
+<h2>Ceremonia</h2>
+<div class="card center">
+<p><strong>Kościół Podwyższenia Krzyża Świętego</strong></p>
+<p>33-164 Olszyny</p>
+<iframe src="https://www.google.com/maps?q=Kościół+Podwyższenia+Krzyża+Świętego+Olszyny&z=17&output=embed"></iframe>
+<div class="card center fade-in"></div>
+</div>
+</div>
+</section>
+
+<section>
+  <div class="card center">
+    <div class="wesele-header">
+  <img src="wesele.png" alt="Ikona wesele" class="wesele-icon">
+  
+  <div class="wesele-text">
+    <h2>Wesele</h2>
+    <p class="miejsce">Biesiada przy Lesie</p>
+    <p class="adres">Gnojnik 657, 32-864 Gnojnik</p>
+  </div>
+</div>
+<iframe src="https://www.google.com/maps?q=Biesiada+Przy+Lesie+Gnojnik+657&z=16&output=embed"></iframe>
+</div>
+</div>
+</section>
+
+<section class="przydatne">
+  <div class="box">
+    <h2>Przydatne informacje</h2>
+
+    <div class="info-grid">
+
+      <div class="info-item">
+  <img src="nocleg.png" alt="Nocleg" class="info-icon">
+  <h3>Nocleg</h3>
+        <p>Z myślą o Waszym komforcie zapewniliśmy noclegi po uroczystości weselnej.
+Będzie nam miło, jeśli przy potwierdzeniu obecności poinformujecie nas, czy będziecie z nich korzystać.</p>
+      </div>
+
+   <div class="info-item">
+  <img src="bus.png" alt="Transport" class="info-icon">
+  <h3>Transport</h3>
+        <p>Abyście mogli bez trosk cieszyć się wspólną zabawą, organizujemy transport powrotny z sali weselnej do domów i miejsc noclegowych.</p>
+      
+      </div>
+
+      <div class="info-item">
+  <img src="dieta.png" alt="Diety specjalne" class="info-icon">
+  <h3>Diety specjalne</h3>
+        <p> W przypadku diet specjalnych lub alergii prosimy o informację w formularzu.</p>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="rsvp-info">
+</div>
+<section>
+<div class="card">
+  
+<h2>Potwierdzenie obecności</h2>
+<center>Prosimy o potwierdzenia przybycia telefonicznie lub przez formularz do <strong>20 lipca</strong></center>
+
+<div class="form-wrapper">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Mzteh7nBet4PXJm9264M8fVAT5SU1waOithOsFC89IG17A/viewform?embedded=true"></iframe>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+  <div class="container">
+
+    <div class="telefon-bg">
+      <img src="telefon.png" alt="Telefon">
+    </div>
+
+    <h2>Kontakt</h2>
+
+    <div class="card center">
+      <p>Weronika: 511 647 517</p>
+      <p>Krzysztof: 722 377 483</p>
+    </div>
+
+  </div>
+</section>
+
+    </div>
+  </div>
+</section>
+
+  </div>
+</section>
+
+<section>
+<div class="card center">
+<h2>Zamiast kwiatów</h2>
+<p>Drodzy Goście, jeśli planujecie obdarować nas bukietem, będzie nam niezwykle miło, jeśli zastąpicie go kawą ziarnistą.
+Dzięki Wam, będziemy mogli wspominać ten wyjątkowy dla nas dzień przy aromatycznej kawie.</p>
+
+      <img src="kwiaty.png" alt="Zamiast kwiatów" class="kwiaty-icon">
+
+    </div>
+  </div>
+</section>
+</div>
+</div>
+</section>
+
+
+<footer>
+Weronika & Krzysztof · 5 września 2026
+</footer>
+
+</body>
+</html> 
+
+
+
